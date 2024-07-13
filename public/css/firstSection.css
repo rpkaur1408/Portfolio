@@ -1,0 +1,21 @@
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15vh 0;
+}
+/* only first section div will get this width */
+.firstSection >div{ 
+    width: 30%;
+}
+.leftSection{
+    font-size: 2.6rem;  
+}
+.rightSection img{
+   width:40vw;  
+}
+
+#element{
+    color: #ED6A5A;
+}
