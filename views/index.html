@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,39 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Shadows+Into+Light&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">   
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Shadows+Into+Light&family=Silkscreen:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/public/css/global.css">
     <link rel="stylesheet" href="/public/css/navbar.css">
     <link rel="stylesheet" href="/public/css/firstSection.css">
+    <link rel="stylesheet" href="/public/css/utilies.css">
+    <link rel="stylesheet" href="/public/css/SecondSection.css">
     <title>Rehatpreet Kaur - Developer Portfolio</title>
     <style>
-
         /* global css, utilies classes, and side specific class */
-       
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        .footer {
+            background-color: rgb(35, 35, 133);
+            padding: 23px 122px;
+            display: flex;
+            justify-content: space-evenly;
+        }
 
-        
-       .secondSection{
-        max-width: 80vw;
-        margin: auto;
-        background-color:rgb(72, 72, 172);
-       }
-
-       main hr{
-        border:0;
-        background:   #ce86867c;
-        height:0.1vh;
-       }
-
-       .secondSection h1{
-        font-family: "Noto Sans", sans-serif;
-        font-weight: 400;
-       }
-       
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -64,27 +57,81 @@
 
         <!-- firstSection -->
         <section class="firstSection">
-            <div class="leftSection">Hi, my name is <span class="text-purple"> Rehatpreet</span> 
+            <div class="leftSection">Hi, my name is <span class="text-purple"> Rehatpreet</span>
                 <div>and I am a</div>
                 <span id="element"></span>
             </div>
             <div class="rightSection">
-                <img src="/public/img/bg.webp" alt="sideImage" style="opacity: 0.5;">
+                <img src="/public/img/bg.webp" alt="sideImage" ">
             </div>
         </section>
         <hr>
         <!-- SecondSection -->
-         <section class="secondSection">
+        <section class="secondSection">
             <span class="text-grey">What I have done so far</span>
             <h1>Work Experience</h1>
-         </section>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/public/img/c.png" alt="">
+                    <div class="vertical-text">C</div>
+                    <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit
+                        voluptates beatae debitis quaerat repellat laboriosam magni, voluptatem expedita quidem. Itaque
+                        deleniti, beatae consequatur vero expedita sequi. Commodi, consectetur voluptates.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/public/img/c.png" alt="">
+                    <div class="vertical-text">C</div>
+                    <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit
+                        voluptates beatae debitis quaerat repellat laboriosam magni, voluptatem expedita quidem. Itaque
+                        deleniti, beatae consequatur vero expedita sequi. Commodi, consectetur voluptates.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/public/img/c.png" alt="">
+                    <div class="vertical-text">C</div>
+                    <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit
+                        voluptates beatae debitis quaerat repellat laboriosam magni, voluptatem expedita quidem. Itaque
+                        deleniti, beatae consequatur vero expedita sequi. Commodi, consectetur voluptates.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/public/img/c.png" alt="">
+                    <div class="vertical-text">C</div>
+                    <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit
+                        voluptates beatae debitis quaerat repellat laboriosam magni, voluptatem expedita quidem. Itaque
+                        deleniti, beatae consequatur vero expedita sequi. Commodi, consectetur voluptates.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/public/img/c.png" alt="">
+                    <div class="vertical-text">C</div>
+                    <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit
+                        voluptates beatae debitis quaerat repellat laboriosam magni, voluptatem expedita quidem. Itaque
+                        deleniti, beatae consequatur vero expedita sequi. Commodi, consectetur voluptates.</div>
+                </div>
+
+            </div>
+        </section>
     </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Rehat's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+    </footer>
+    <!-- using typed js -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['passionate learner','Web Developer', 'Student'],
-          typeSpeed: 50,
+            strings: ['passionate learner', 'Web Developer', 'Student'],
+            typeSpeed: 50,
         });
-      </script>
+    </script>
 </body>
+
 </html>

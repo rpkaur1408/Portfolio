@@ -1,0 +1,65 @@
+       
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        
+.secondSection{
+ max-width: 80vw;
+ margin: auto;
+ background-color:rgb(72, 72, 172);
+ height: 80vh;
+}
+
+main hr{
+ border:0;
+ background:  #a7a9e9;
+ height:0.1vh;
+}
+
+.secondSection h1{
+ font-family: "Noto Sans", sans-serif;
+ font-weight: 400;
+ 
+ /* color:#ED6A5A ; */
+}
+.secondSection .box{
+ /* background: white; */
+ background-color:rgba(128, 128, 128, 0.589);
+ width:150vh;
+ height: 2px;
+ margin: 56px 0;
+ display: flex;
+}
+
+
+.secondSection .vertical{
+ height: 93px;
+ width: 1px;
+ background-color:rgba(128, 128, 128, 0.589);
+ /* to increase spacing btw elements */
+ margin: 0 120px;
+}
+.vertical-text{
+ position: relative;
+ top: 66px;
+ width: 150px;
+ font-size: 25px;
+ font-weight: 600;
+ 
+ margin: 0 -7px;
+}
+
+.vertical-description{
+ position: relative;
+ top: 75px;
+ width: 150px;
+ /* color: rgb(231, 224, 224); */
+ font-size: 12px;
+ margin: 0 -53px;
+}
+.image-top{
+ width: 23px;
+ position: relative;
+ top:-32px;
+ left: -9px;
+ 
+}
