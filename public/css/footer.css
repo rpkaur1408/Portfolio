@@ -1,0 +1,7 @@
+  /* global css, utilies classes, and side specific class */
+  .footer {
+    background-color: rgb(35, 35, 133);
+    padding: 23px 122px;
+    display: flex;
+    justify-content: space-evenly;
+}
