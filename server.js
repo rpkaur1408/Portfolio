@@ -23,6 +23,11 @@ app.get('/contactMe', (req, res) => {
     res.sendFile(path.join(__dirname, 'views/contactMe.html'));
 });
 
+app.get('/projects', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views/project.html'));
+});
+
+
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, 'views/notes.html'));
 });
