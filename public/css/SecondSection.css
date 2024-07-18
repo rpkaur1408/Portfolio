@@ -5,38 +5,50 @@
 .secondSection{
  max-width: 80vw;
  margin: auto;
- background-color:rgb(72, 72, 172);
+ /* background-color: #1D1C4E; */
  height: 80vh;
 }
 
-main hr{
+/* main hr{
  border:0;
  background:  #a7a9e9;
- height:0.1vh;
+ background-color:rgb(72, 72, 172);
+ height: 0.1vh;
+ width: 20vw;
+ margin-bottom: 10vh;
+} */
+
+main hr{
+    border: 0;
+    background-color:rgb(72, 72, 172);
+    height: 1.2px;
+    margin: 40px 84px;
 }
 
 .secondSection h1{
  font-family: "Noto Sans", sans-serif;
  font-weight: 400;
  
- /* color:#ED6A5A ; */
+ 
 }
-.secondSection .box{
- /* background: white; */
- background-color:rgba(128, 128, 128, 0.589);
- width:150vh;
- height: 2px;
- margin: 56px 0;
- display: flex;
-}
+
+
+.secondSection .box {
+    background-color:rgba(82, 76, 76, 0.589);
+    height: 2px;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
 
 
 .secondSection .vertical{
- height: 93px;
+ height: 130px;
  width: 1px;
- background-color:rgba(128, 128, 128, 0.589);
+ background-color:rgba(82, 76, 76, 0.589);
  /* to increase spacing btw elements */
- margin: 0 120px;
+ margin: 0 100px;
 }
 .vertical-text{
  position: relative;
@@ -44,7 +56,7 @@ main hr{
  width: 150px;
  font-size: 25px;
  font-weight: 600;
- 
+ left:-8px;
  margin: 0 -7px;
 }
 
@@ -52,14 +64,14 @@ main hr{
  position: relative;
  top: 75px;
  width: 150px;
- /* color: rgb(231, 224, 224); */
+ color: rgba(128, 128, 128, 0.675);
  font-size: 12px;
  margin: 0 -53px;
+ left: 2px;
 }
 .image-top{
- width: 23px;
- position: relative;
- top:-32px;
- left: -9px;
- 
+  width: 65px;
+  position: relative;
+  top: -85px;
+  left: -32px;
 }
