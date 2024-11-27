@@ -1,1 +1,3 @@
 resume : <iframe src="https://docs.google.com/document/d/e/2PACX-1vRTGqG0jEKzRhdRLCxhFrSLDEhQPBaS1MFE7g6I0BqVTbdTILSCpVScWqwshzSsbCpu9GRJQMM_PofD/pub?embedded=true"></iframe>
+
+node --watch server.js
